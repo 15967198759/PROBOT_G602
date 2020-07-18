@@ -2,11 +2,13 @@
 
 # The output log level for controller
 int8 controller_log_level
+bool init_with_all_zero_pos
 
 # The zero calibration parameters
-float32[] seneor_position
-float32[] calibration_velocity
-int32     reset_velocity_percent
+bool        enable_joint_calibration
+float32[]   seneor_position
+float32[]   speed_to_sensor
+float32[]   speed_to_zero
 
 # The tool's relative pose to end-effector(tool0)
 # This is used to jog tool instead of end-effector

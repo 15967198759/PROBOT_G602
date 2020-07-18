@@ -61,7 +61,7 @@ add_message_files(
   PredefinedPoint.msg
   PredefinedPointList.msg
   InterfaceReturnCode.msg
-  IOStatus.msg
+  ProbotStatus.msg
   SetOutputIO.msg
   ControllerCtrl.msg
   DemoCtrl.msg

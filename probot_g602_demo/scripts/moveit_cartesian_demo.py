@@ -63,7 +63,7 @@ class MoveItCartesianDemo:
         waypoints = []
                 
         # 将初始位姿加入路点列表
-        waypoints.append(start_pose)
+        # waypoints.append(start_pose)
             
         # 设置路点数据，并加入路点列表
         wpose = deepcopy(start_pose)

@@ -211,8 +211,8 @@
     <axis
       xyz="0 -1 0" />
     <limit
-      lower="-0.5232"
-      upper="3.6648"
+      lower="-1.19"
+      upper="3.32"
       effort="100"
       velocity="3" />
   </joint>
@@ -260,7 +260,7 @@
     name="joint_4"
     type="revolute">
     <origin
-      xyz="0.080009 0 0.025"
+      xyz="0.08 0 0.025"
       rpy="0 ${-M_PI/2} ${-M_PI/2}" />
     <parent
       link="link_3" />
@@ -376,7 +376,7 @@
     name="joint_6"
     type="revolute">
     <origin
-      xyz="-0.056045 0.00225 0"
+      xyz="-0.056045 0 0"
       rpy="0 0 ${M_PI}" />
     <parent
       link="link_5" />
